@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+/*****************************************
+ * Authors Style sheet
+ * @Vikas Choudhary
+ ****************************************/
+
 body {
   font-family: Merriweather;
 }
@@ -65,7 +70,7 @@ header p {
   padding: 5px 0px; 
 }
 
- a {
+a {
   text-decoration: none;
   color: white;
 }
