@@ -104,6 +104,10 @@ p {
   font-size: 1.15em;
 }
 
+footer img {
+  vertical-align: middle;
+}
+
 #main {
   width: 80%;
   margin: 20px auto;
