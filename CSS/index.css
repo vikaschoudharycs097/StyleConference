@@ -153,8 +153,16 @@ section h3 {
 
 #speakers img {
   display: inline-block;
-  margin: 20px;
-  width: 180px;
+  margin: 10px;
+  width: 80%;
+}
+
+#speakers h2 {
+  font-size: 2.0em;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
 }
 
 footer {
@@ -192,10 +200,20 @@ footer {
     display: grid;
     grid-template-columns: 100%;
   }
+
+  #speakers h2 {
+    font-size: 1.65em;
+  }
+  
 }
 
 @media only screen and (min-width: 601px) and (max-width: 750px) {
   #speakers {
     width: 90%;
   }
+
+  #speakers h2 {
+    font-size: 1.8em;
+  }
+  
 }
