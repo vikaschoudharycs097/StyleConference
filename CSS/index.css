@@ -158,11 +158,16 @@ section h3 {
 }
 
 #speakers h2 {
-  font-size: 2.0em;
-  background-color: black;
+  font-size: 1.6em;
+  background-color: #53585e;
   color: white;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
+  border-radius: 10px;
+}
+
+section p {
+  text-align: justify;
 }
 
 footer {
@@ -202,7 +207,7 @@ footer {
   }
 
   #speakers h2 {
-    font-size: 1.65em;
+    font-size: 1.45em;
   }
 }
 
@@ -212,6 +217,6 @@ footer {
   }
 
   #speakers h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 }
