@@ -142,7 +142,7 @@ section h3 {
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
-  border: 3px solid black;
+  background-color: #ede8da;
   margin: 20px;
 }
 
@@ -163,7 +163,6 @@ section h3 {
   color: white;
   padding: 5px;
   margin: 10px;
-  border-radius: 10px;
 }
 
 section p {
