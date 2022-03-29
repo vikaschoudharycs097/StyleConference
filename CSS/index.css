@@ -114,6 +114,18 @@ footer img {
   padding: 15px;
 }
 
+#main a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
+}
+
+#main a:hover {
+  background-color: #333333;
+  color: white;
+  border-radius: 3px;
+}
+
 #info section {
   width: 65%;
   margin: 10px auto;
