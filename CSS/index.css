@@ -155,11 +155,6 @@ input[type="submit"] {
   background-color: green;
 }
 
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  background-color: blueviolet;
-}
-
 #main a {
   display: inline-block;
   text-decoration: none;
