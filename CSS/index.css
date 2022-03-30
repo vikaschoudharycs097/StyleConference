@@ -160,12 +160,13 @@ input[type="submit"] {
   display: inline-block;
   text-decoration: none;
   padding: 3px;
+  background-color: #44bd66;
+  color: white;
+  border-radius: 3px;
 }
 
 #main a:hover {
   background-color: #333333;
-  color: white;
-  border-radius: 3px;
 }
 
 #info section {
