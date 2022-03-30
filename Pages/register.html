@@ -25,9 +25,17 @@
   <section id="register">
     <form action="" method="GET">
       <label for="name">Name</label>
-      <input type="text" name="name" id="name" placeholder="Name" required /><br /><br />
+      <input type="text" name="name" id="name" placeholder="Name" required />
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="Email" required /><br /><br />
+      <input type="email" name="email" id="email" placeholder="Email" required />
+      <label for="id_type">ID Type</label>
+      <select id="id_type">
+        <option>Aadhaar Card</option>
+        <option>Pan Card</option>
+        <option>Driving License</option>
+      </select>
+      <label for="id_number">ID Number</label>
+      <input type="text" name="id_number" id="id_number" />
       <input type="submit" value="Register" /><input type="reset" value="Clear" />
     </form>
   </section>
