@@ -309,6 +309,10 @@ footer {
   #register {
     width: 90%;
   }
+
+  #schedule {
+    width: 95%;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 750px) {
@@ -326,5 +330,9 @@ footer {
 
   #register {
     width: 70%;
+  }
+
+  #schedule {
+    width: 75%;
   }
 }
