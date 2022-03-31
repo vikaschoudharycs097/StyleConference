@@ -114,7 +114,7 @@ footer img {
   padding: 15px;
 }
 
-#register {
+#register, #schedule {
   width: 50%;
   margin: 20px auto;
   padding: 15px;
@@ -222,6 +222,31 @@ section h3 {
 
 section p {
   text-align: justify;
+}
+
+#schedule {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2em;
+}
+
+table caption {
+  font-size: 1.5em;
+}
+
+td, th {
+  border: 2px solid #ddd;
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  background-color: green;
 }
 
 footer {
