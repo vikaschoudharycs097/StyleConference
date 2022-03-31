@@ -233,6 +233,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
 table caption {
