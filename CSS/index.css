@@ -51,7 +51,6 @@ table {
  * Authors Style sheet
  * @Vikas Choudhary
  ****************************************/
-
 * {
   box-sizing: border-box;
 }
@@ -60,6 +59,12 @@ body {
   font-family: "Titillium web";
 }
 
+p {
+  padding: 10px 0 0 0;
+  font-size: 1.15em;
+}
+
+/* Header section */
 header {
   text-align: center;
   background-color: #00e673;
@@ -93,31 +98,77 @@ nav li:hover{
   background-color: black;
 }
 
-footer {
-  background-color: #333333;
-  color: white;
-  text-align: center;
-}
-
-p {
-  padding: 10px 0 0 0;
-  font-size: 1.15em;
-}
-
-footer img {
-  vertical-align: middle;
-}
-
 #main, #venue {
   width: 80%;
   margin: 20px auto;
   padding: 15px;
 }
 
-#register, #schedule {
-  width: 50%;
+#main a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
+  background-color: #44bd66;
+  color: white;
+  border-radius: 3px;
+}
+
+#main a:hover {
+  background-color: #333333;
+}
+
+section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+section h3 {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+#speakers {
+  width: 70%;
+  margin: auto;
+}
+
+#speakers section {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  justify-items: center;
+  align-items: center;
+  background-color: #ede8da;
+  margin: 20px;
+}
+
+#speakers p {
+  line-height: 1.2em;
+  padding: 20px;
+}
+
+#speakers img {
+  display: inline-block;
+  margin: 10px;
+  width: 80%;
+}
+
+#speakers h2 {
+  font-size: 1.6em;
+  background-color: #53585e;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+section p {
+  text-align: justify;
+}
+
+#register {
+  width: 500px;
   margin: 20px auto;
   padding: 15px;
+  background-color: #efefef;
 }
 
 label {
@@ -156,19 +207,6 @@ input[type="submit"] {
   background-color: green;
 }
 
-#main a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 3px;
-  background-color: #44bd66;
-  color: white;
-  border-radius: 3px;
-}
-
-#main a:hover {
-  background-color: #333333;
-}
-
 #info section {
   width: 65%;
   margin: 10px auto;
@@ -176,56 +214,11 @@ input[type="submit"] {
   border: 3px solid green;
 }
 
-section h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-section h3 {
-  font-size: 2.0em;
-  font-weight: bold;
-}
-
-#speakers {
-  width: 70%;
-  margin: auto;
-}
-
-#speakers section {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  background-color: #ede8da;
-  margin: 20px;
-}
-
-#speakers p {
-  line-height: 1.2em;
-  padding: 20px;
-}
-
-#speakers img {
-  display: inline-block;
-  margin: 10px;
-  width: 80%;
-}
-
-#speakers h2 {
-  font-size: 1.6em;
-  background-color: #53585e;
-  color: white;
-  padding: 5px;
-  margin: 10px;
-}
-
-section p {
-  text-align: justify;
-}
-
 #schedule {
-  background-color: #ddd;
+  width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #efefef;
   color: black;
 }
 
@@ -233,7 +226,6 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-size: 1.2em;
-  margin-bottom: 20px;
 }
 
 table caption {
@@ -241,6 +233,7 @@ table caption {
   background-color: #333;
   color: white;
   padding: 5px;
+  font-weight: bold;
 }
 
 td, th {
@@ -251,6 +244,12 @@ td, th {
 
 th {
   color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+td {
+  font-size: 1.15em;
 }
 
 .date {
@@ -265,10 +264,6 @@ th {
   background-color: #89e075;
 }
 
-footer {
-  clear: both;
-}
-
 #venue img {
   width: 100%;
 }
@@ -278,6 +273,17 @@ footer {
   color: white;
   padding: 5px;
   font-size: 1.02em;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+footer img {
+  vertical-align: middle;
 }
 
 /* Responsive design */
@@ -317,8 +323,8 @@ footer {
   }
 
   #venue {
-    width: 100%;
-    padding: 20% 15px;
+    width: 90%;
+    padding: 10% 0;
   }
 
   #register {
@@ -327,6 +333,7 @@ footer {
 
   #schedule {
     width: 95%;
+    padding: 15px;
   }
 }
 
@@ -340,7 +347,7 @@ footer {
   }
 
   #venue {
-    width: 90%;
+    width: 85%;
   }
 
   #register {
