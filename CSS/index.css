@@ -225,8 +225,8 @@ section p {
 }
 
 #schedule {
-  background-color: black;
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 
 table {
@@ -237,17 +237,32 @@ table {
 }
 
 table caption {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  background-color: #333;
+  color: white;
+  padding: 5px;
 }
 
 td, th {
-  border: 2px solid #ddd;
+  border: 2px solid black;
   text-align: center;
   padding: 5px;
 }
 
 th {
-  background-color: green;
+  color: white;
+}
+
+.date {
+  background-color: #e07875;
+}
+
+.head {
+  background-color: #de6662;
+}
+
+.break {
+  background-color: #89e075;
 }
 
 footer {
@@ -315,7 +330,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 750px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
   #speakers {
     width: 90%;
   }
