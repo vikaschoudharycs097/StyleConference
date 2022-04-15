@@ -101,7 +101,7 @@ nav li{
   font-size: 1.15em;
 }
 
-nav li:hover{
+nav li:hover, nav li#selected{
   background-color: black;
 }
 
